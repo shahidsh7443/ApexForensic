@@ -680,7 +680,6 @@ span.separator span{
         margin: 0;
     }
 }
-
 /* =-=-=-=-=-=-= NAVIGATION =-=-=-=-=-=-= */
 .main-menu-wrapper{
     margin-top: 8px;
@@ -713,7 +712,7 @@ span.separator span{
                 transition: all .4s ease-in-out;
     }
     .header-transparent .navbar-default{
-        background-color: transparent;
+        background-color:transparent;
     }
 
     .navbar-nav>li>.dropdown-menu {
@@ -834,9 +833,9 @@ span.separator span{
 
 .header-transparent .navbar-default .navbar-nav>li>a {
     color: #ffffff;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .navbar-default .navbar-nav li a:focus,
@@ -1350,7 +1349,7 @@ span.separator span{
 .slides-container .intro {
     position: absolute;
     width: 100%;
-    top: 50%;
+    top: 85%;
     left: 0;
     padding: 0 15px;
     -webkit-transform: translate(0%, -50%);
@@ -1358,6 +1357,7 @@ span.separator span{
         -ms-transform: translate(0%, -50%);
          -o-transform: translate(0%, -50%);
             transform: translate(0%, -50%);
+            background: rgba(0, 0, 0, 0.4);
 
 }
 
@@ -1370,8 +1370,8 @@ span.separator span{
 }
 .tt-slider .tt-title {
     display: block;
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 30px;
+    line-height: 30px;
     font-weight: 700;
     text-transform: capitalize;
     color: #fff;
@@ -1782,13 +1782,13 @@ display: block;
     font-size: 18px;
     position: relative;
 }
-.icon-block h3 a:hover{
+/*.icon-block h3 a:hover{
     color: #c03a2b;
-}
+}/*
 
 /*icon effect style*/
 .icon-effect.icon-position-left .tt-content{
-    margin-left: 85px;
+    margin-left: 130px;
 }
 .icon-effect.icon-position-right .tt-content{
     margin-right: 85px;
@@ -2172,7 +2172,40 @@ display: block;
         left: -19px;
     }
 }
-
+.slides-navigation .glyphicon {
+  color:white !important;
+}
+.slides-navigation a:hover {
+  background: rgba(0, 0, 0, 0.4);
+  color:white !important;
+}
+.slides-navigation a {
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 50px;
+  display: block;
+  text-decoration: none;
+  border: 3px solid #fff;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0 10px;
+  text-shadow: 0 1px 1px #000;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  top: 40px;
+  padding: 3px;
+  -webkit-box-shadow: 0 1px 1px black;
+  -moz-box-shadow: 0 1px 1px black;
+  box-shadow: 0 1px 1px black;
+  -webkit-transition: background 0.15s ease;
+  -moz-transition: background 0.15s ease;
+  -o-transition: background 0.15s ease;
+  transition: background 0.15s ease;
+}
 
 /* =-=-=-=-=-=-= SINGLE STORY PAGE =-=-=-=-=-=-= */
 
@@ -2184,7 +2217,106 @@ display: block;
 }
 
 .navbar .navbar-header img{
+  width: 50%;
+}
+.sticky .navbar-header img{
   width: 25%;
+}
+#services .icon-block .tt-icon .flaticon-house121
+{
+    background-image: url(../../services/Paternity2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.flaticon-house121:before {
+    display: none;
+}
+#services .icon-block .tt-icon .flaticon-lifeline5
+{
+    background-image: url(../../services/service1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.flaticon-lifeline5:before {
+    display: none;
+}
+#services .icon-block .tt-icon .flaticon-share11
+{
+    background-image: url(../../services/official.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.flaticon-share11:before {
+    display: none;
+}
+#services .icon-block .tt-icon .flaticon-earth206
+{
+    background-image: url(../../services/DNA1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.flaticon-earth206:before {
+    display: none;
+}
+#services .icon-block .tt-icon .flaticon-graduate37
+{
+    background-image: url(../../services/dna2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.flaticon-graduate37:before {
+    display: none;
+}
+#services .icon-block .tt-icon .flaticon-home166
+{
+    background-image: url(../../services/fire1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.flaticon-home166:before {
+    display: none;
+}
+#services .icon-block .tt-icon .flaticon-address20
+{
+    background-image: url(../../services/shoeimpression1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.flaticon-address20:before {
+    display: none;
+}
+#services .icon-block .tt-icon .flaticon-businessman20
+{
+    background-image: url(../../services/Farms1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.flaticon-businessman20:before {
+    display: none;
+}
+#services .icon-block .tt-icon .flaticon-basic6
+{
+    background-image: url(../../services/dst1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.flaticon-basic6:before {
+    display: none;
+}
+#services .icon-position-left .tt-icon i
+{
+  width: 100px;
+  height: 100px;
+  border-radius: 0%;
+}
+.icon-position-left .tt-icon i
+{
+  width: 100px;
+  height: 100px;
+}
+ #services .icon-effect .tt-icon i:after
+{
+background-color: transparent;
 }
 /* =-=-=-=-=-=-= ACHIVEMENT SECTION =-=-=-=-=-=-= */
 

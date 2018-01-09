@@ -4,7 +4,7 @@ Author: TrendyTheme
 Version: 1.6
 */
 
-/* ======= TABLE OF CONTENTS ================================== 
+/* ======= TABLE OF CONTENTS ==================================
 
     # Preloader
     # jQuery for page scrolling feature - requires jQuery Easing plugin
@@ -46,7 +46,7 @@ jQuery(function ($) {
     /* ======= Preloader ======= */
     $('#status').delay(0).fadeOut();
     $('#preloader').delay(500).fadeOut('slow');
-    
+
 
     /* === jQuery for page scrolling feature - requires jQuery Easing plugin === */
     (function () {
@@ -57,7 +57,7 @@ jQuery(function ($) {
             var target = this.hash;
             var $target = $(target);
             var headerHeight = $('.navbar, .navbar.sticky').outerHeight();
-            
+
             if (target) {
                 $('html, body').stop().animate({
                     'scrollTop': $target.offset().top - headerHeight + "px"
@@ -103,7 +103,7 @@ jQuery(function ($) {
 
     /* ======= superslides ======= */
     $('#slides').superslides({
-        play: 7000, 
+        play: 5000, 
         animation: 'fade'
     });
 
@@ -219,7 +219,7 @@ jQuery(function ($) {
             showInteraction: false,
             customCallback: ttHandleTweets
         };
-        
+
         function ttHandleTweets(tweets) {
             var x = tweets.length;
             var n = 0;
@@ -365,7 +365,7 @@ jQuery(function ($) {
 
 
 
-    /* ======= Countdown ======= */    
+    /* ======= Countdown ======= */
     (function () {
         $('[data-countdown]').each(function() {
             var $this = $(this), finalDate = $(this).data('countdown');
@@ -384,7 +384,7 @@ jQuery(function ($) {
 
     /* === Detect IE version === */
     (function () {
-        
+
         function getIEVersion() {
             var match = navigator.userAgent.match(/(?:MSIE |Trident\/.*; rv:)(\d+)/);
             return match ? parseInt(match[1], 10) : false;
@@ -409,7 +409,7 @@ jQuery(function ($) {
             } else {
                 $('#toTop').fadeOut();
             }
-        }); 
+        });
 
         $('#toTop').on('click',function(){
             $("html, body").animate({ scrollTop: 0 }, 600);
@@ -429,11 +429,11 @@ jQuery(function ($) {
                 $map_zoom  = 12;
             /* ZOOM SETTING */
 
-            //google map custom marker icon 
+            //google map custom marker icon
             var $marker_url = $('#ttmap').attr('data-map-marker');
 
             //we define here the style of the map
-            
+
             var style = [{
                 stylers: [{
                     "hue": "#000"
@@ -460,7 +460,7 @@ jQuery(function ($) {
             }
             //initialize the map
             var map = new google.maps.Map(document.getElementById('ttmap'), map_options);
-            //add a custom marker to the map                
+            //add a custom marker to the map
             var marker = new google.maps.Marker({
                 position : new google.maps.LatLng($latitude, $longitude),
                 map      : map,
@@ -468,7 +468,7 @@ jQuery(function ($) {
                 icon     : $marker_url
             });
         }
-     
+
     }());
 
 
@@ -521,7 +521,7 @@ jQuery(function ($) {
         $('input, textarea, email, number').placeholder();
     }());
 
-    
+
     /* === Ticker  === */
     (function(){
         if (nomineeJSObject.nominee_news_ticker == true) {
@@ -594,7 +594,7 @@ jQuery(function ($) {
                 sync          : ttGalleryThumb
             });
 
-            // Navigation 
+            // Navigation
             ttGalleryNav.find('.prev').on('click', function (e) {
                 ttGallery.flexslider('prev')
                 return false;
@@ -631,6 +631,6 @@ jQuery(function ($) {
     }
 
 
-    
+
 
 });
