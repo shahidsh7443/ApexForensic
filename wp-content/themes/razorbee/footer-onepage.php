@@ -10,7 +10,7 @@ endif; ?>
                 <?php get_template_part('template-parts/social', 'icons');?>
             </div> <!-- /social-links-wrap -->
         <?php endif; ?>
-        
+
         <?php if (nominee_option('footer-menu-visibility', false, false)): ?>
             <div class="footer-menu">
                 <?php wp_nav_menu( apply_filters( 'nominee_footer_wp_nav_menu', array(
@@ -21,7 +21,7 @@ endif; ?>
                 ?>
             </div>
         <?php endif ?>
-        
+
         <?php if (nominee_option('footer-text', false, false)) :
             echo wp_kses(nominee_option('footer-text'), array(
                 'a'      => array(
@@ -44,7 +44,7 @@ endif; ?>
                 <?php printf(
                     esc_html__('Copyright &copy; %1$s %2$s. All Rights Reserved. Designed by %3$s.', 'nominee'),
                     date('Y'), esc_html__('Nominee', 'nominee'),
-                    "<a href='http://www.trendytheme.net'>".esc_html__('Trendy Theme', 'nominee')."</a>"); ?>
+                    "<a href='http://www.razorbee.com' target='_blank'>".esc_html__('Razorbee Online Solutions', 'nominee')."</a>"); ?>
             </span>
         <?php endif; ?>
     </div> <!-- .container -->

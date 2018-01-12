@@ -1,4 +1,6 @@
 <?php
+
+
 /**
  * Used to set up and fix common variables and include
  * the WordPress procedural and class library.
@@ -214,6 +216,7 @@ require( ABSPATH . WPINC . '/class-wp-http-response.php' );
 require( ABSPATH . WPINC . '/class-wp-http-requests-response.php' );
 require( ABSPATH . WPINC . '/class-wp-http-requests-hooks.php' );
 require( ABSPATH . WPINC . '/widgets.php' );
+
 require( ABSPATH . WPINC . '/class-wp-widget.php' );
 require( ABSPATH . WPINC . '/class-wp-widget-factory.php' );
 require( ABSPATH . WPINC . '/nav-menu.php' );
@@ -241,6 +244,7 @@ require( ABSPATH . WPINC . '/rest-api/fields/class-wp-rest-term-meta-fields.php'
 require( ABSPATH . WPINC . '/rest-api/fields/class-wp-rest-user-meta-fields.php' );
 
 $GLOBALS['wp_embed'] = new WP_Embed();
+
 
 // Load multisite-specific files.
 if ( is_multisite() ) {
@@ -294,7 +298,7 @@ require( ABSPATH . WPINC . '/vars.php' );
 create_initial_taxonomies();
 create_initial_post_types();
 
-wp_start_scraping_edited_file_errors();
+//wp_start_scraping_edited_file_errors();
 
 // Register the default theme directory root
 register_theme_directory( get_theme_root() );
@@ -468,4 +472,4 @@ if ( is_multisite() ) {
  *
  * @since 3.0.0
  */
-do_action( 'wp_loaded' );
+//do_action( 'wp_loaded' );
