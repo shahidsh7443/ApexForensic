@@ -2227,6 +2227,7 @@ display: block;
 
 .navbar .navbar-header img{
   width: 50%;
+  transition: all 0.7s ease;
 }
 .sticky .navbar-header img{
   width: 20%;

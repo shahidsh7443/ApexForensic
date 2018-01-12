@@ -56,14 +56,11 @@ jQuery(function ($) {
 
             var target = this.hash;
             var $target = $(target);
-            var headerHeight = $('.navbar, .navbar.sticky').outerHeight();
-
+var _top=10;
             if (target) {
                 $('html, body').stop().animate({
-                    'scrollTop': $target.offset().top - headerHeight + "px"
-                }, 1200, 'easeInOutExpo', function () {
-                    window.location.hash = target;
-                });
+                    'scrollTop': $target.offset().top - _top
+                }, 1200, 'easeInOutExpo');
             }
         });
 
@@ -103,7 +100,7 @@ jQuery(function ($) {
 
     /* ======= superslides ======= */
     $('#slides').superslides({
-        play: 5000, 
+        play: 5000,
         animation: 'fade'
     });
 
@@ -124,7 +121,12 @@ jQuery(function ($) {
         speed: ttAniSpeed // How many milliseconds until the next word show.
     });
 
-
+    $(function(){
+          $('.navbar-collapse a').click(function()
+          {
+            $(".navbar-collapse").collapse('hide');
+          });
+        });
     /* === Counter === */
     $('.fact-wrap, .tt-fundraise-wrapper').on('inview', function(event, visible, visiblePartX, visiblePartY) {
         if (visible) {
