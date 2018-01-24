@@ -18,22 +18,22 @@ $blog_sidebar = nominee_option('blog-sidebar', false, 'right-sidebar');
         <div class="row">
             <div class="<?php echo esc_attr($grid_column); ?>">
                 <div id="main" class="posts-content" role="main">
-                    <?php while ( have_posts() ) : the_post(); 
+                    <?php while ( have_posts() ) : the_post();
 
-                        get_template_part( 'template-parts/content', get_post_format() ); 
+                        get_template_part( 'template-parts/content', get_post_format() );
 
-                        nominee_post_navigation(); 
-                     
+                        nominee_post_navigation();
+
                         // If comments are open or we have at least one comment, load up the comment template.
                         if ( comments_open() || get_comments_number() ) :
                             comments_template();
                         endif;
-                        
+
                     endwhile; // End of the loop. ?>
                 </div> <!-- .posts-content -->
             </div> <!-- col-## -->
 
-            <!-- Sidebar -->   
+            <!-- Sidebar -->
             <?php get_sidebar(); ?>
 
         </div> <!-- .row -->

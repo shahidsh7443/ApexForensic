@@ -6138,3 +6138,90 @@ ul.comment-list > li.bypostauthor > .comment {
     padding-left: 3px;
     cursor: pointer;
 }
+.btn-outline {
+
+    visibility: hidden;
+}
+.btn-xl
+{
+display:none !important;
+}
+#comments
+{
+display:none;
+}
+#meta-2
+{
+display:none;
+}
+#categories-2
+{
+display:none;
+}
+#categories-3
+{
+display:none;
+}
+#archives-2
+{
+display:none;
+}
+.tt-popular-post
+{
+display:none;
+}
+#fivegrid_comments_widget-1
+{
+display:none;
+}
+.mc4wp_form_widget-1
+{
+display:none;
+}
+.header-transparent .page-header-section .page-header {
+    padding: 225px 0 100px !important;
+}
+
+@media only screen and (max-width: 480px)
+{
+.navbar .navbar-header img {
+    width: 25% !important;
+    transition: all 0.7s ease;
+    position: absolute;
+    height: auto;
+    margin-top: -15px;
+}
+.navbar-nav {
+    margin: 40.5px -15px !important;
+}
+.mobile-donate-button .btn {
+   display:none
+}
+#meta-2
+{
+display:none;
+}
+#categories-2
+{
+display:none;
+}
+#categories-3
+{
+display:none;
+}
+#archives-2
+{
+display:none;
+}
+.ntt
+{
+margin-left:-70px;
+}
+.header-transparent .page-header-section .page-header {
+    padding: 150px 0 100px !important;
+}
+.ser
+{
+margin-top:15px
+}
+}
