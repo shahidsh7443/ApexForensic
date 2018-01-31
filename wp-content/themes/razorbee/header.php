@@ -8,6 +8,7 @@ endif; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="profile" href="http://gmpg.org/xfn/11">
+     <link rel="icon" type="image/png" href="wp-content/uploads/2015/12/New-Project.png" />
     <link rel="pingback" href="<?php esc_url( bloginfo( 'pingback_url' ) ); ?>">
     <?php wp_head(); ?>
 </head>

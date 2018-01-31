@@ -1,0 +1,139 @@
+
+---Downloaded files---
+The import files for: Multipage Demo were successfully downloaded!
+Initial max execution time = 500
+Files info:
+Site URL = http://localhost/razorbee/apexforensic
+Data file = C:\xampp\htdocs\razorbee\apexforensic/wp-content/uploads/2018/01/demo-content-import-file_2018-01-24__12-15-01.xml
+Widget file = C:\xampp\htdocs\razorbee\apexforensic/wp-content/uploads/2018/01/demo-widgets-import-file_2018-01-24__12-15-01.json
+Customizer file = not defined!
+Redux files:
+nominee_theme_option -> C:\xampp\htdocs\razorbee\apexforensic/wp-content/uploads/2018/01/demo-redux-import-file_0-2018-01-24__12-15-01.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Search - No Title - Widget already exists
+Nominee Popular Posts - No Title - Widget already exists
+Nominee Recent Comments - Recent Comment - Widget already exists
+Categories - Categories - Widget already exists
+Tag Cloud - Tags - Widget already exists
+MailChimp Sign-Up Form - Subscribe Newsletter - Widget already exists
+
+Page Sidebar Area : 
+
+Search - No Title - Widget already exists
+Nominee Latest Posts - Latest Posts - Widget already exists
+MailChimp Sign-Up Form - Subscribe Newsletter - Widget already exists
+
+Issue Sidebar Area : 
+
+Navigation Menu - Categories - Widget already exists
+MailChimp Sign-Up Form - Subscribe Newsletter - Widget already exists
+
+Footer Sidebar Area : 
+
+Visual Editor - About - Widget already exists
+Navigation Menu - Quick Links - Widget already exists
+Nominee Latest Posts - Latest Posts - Widget already exists
+Nominee Flickr Photo Widget - Flickr - Widget already exists
+
+
+
+---Importing Redux settings---
+Redux settings import for: nominee_theme_option finished successfully!
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Search - No Title - Widget already exists
+Nominee Popular Posts - No Title - Widget already exists
+Nominee Recent Comments - Recent Comment - Widget already exists
+Categories - Categories - Widget already exists
+Tag Cloud - Tags - Widget already exists
+MailChimp Sign-Up Form - Subscribe Newsletter - Widget already exists
+
+Page Sidebar Area : 
+
+Search - No Title - Widget already exists
+Nominee Latest Posts - Latest Posts - Widget already exists
+MailChimp Sign-Up Form - Subscribe Newsletter - Widget already exists
+
+Issue Sidebar Area : 
+
+Navigation Menu - Categories - Widget already exists
+MailChimp Sign-Up Form - Subscribe Newsletter - Widget already exists
+
+Footer Sidebar Area : 
+
+Visual Editor - About - Widget already exists
+Navigation Menu - Quick Links - Widget already exists
+Nominee Latest Posts - Latest Posts - Widget already exists
+Nominee Flickr Photo Widget - Flickr - Widget already exists
+
+
+
+---Importing Redux settings---
+Redux settings import for: nominee_theme_option finished successfully!
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Search - No Title - Widget already exists
+Nominee Popular Posts - No Title - Widget already exists
+Nominee Recent Comments - Recent Comment - Widget already exists
+Categories - Categories - Widget already exists
+Tag Cloud - Tags - Widget already exists
+MailChimp Sign-Up Form - Subscribe Newsletter - Widget already exists
+
+Page Sidebar Area : 
+
+Search - No Title - Widget already exists
+Nominee Latest Posts - Latest Posts - Widget already exists
+MailChimp Sign-Up Form - Subscribe Newsletter - Widget already exists
+
+Issue Sidebar Area : 
+
+Navigation Menu - Categories - Widget already exists
+MailChimp Sign-Up Form - Subscribe Newsletter - Widget already exists
+
+Footer Sidebar Area : 
+
+Visual Editor - About - Widget already exists
+Navigation Menu - Quick Links - Widget already exists
+Nominee Latest Posts - Latest Posts - Widget already exists
+Nominee Flickr Photo Widget - Flickr - Widget already exists
+
+
+
+---Importing Redux settings---
+Redux settings import for: nominee_theme_option finished successfully!

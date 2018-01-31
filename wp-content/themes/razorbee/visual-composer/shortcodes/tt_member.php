@@ -1,8 +1,8 @@
-<?php 
+<?php
     if ( ! defined( 'ABSPATH' ) ) :
         exit; // Exit if accessed directly
     endif;
-    
+
     $tt_atts = vc_map_get_attributes( $this->getShortcode(), $atts );
 
     ob_start();
@@ -10,7 +10,7 @@
 
     <div class="member-wrapper <?php echo esc_attr($tt_atts['el_class']); ?>">
         <div class="row">
-            <?php 
+            <?php
             $args = array(
                'post_type'      => 'tt-member',
                'posts_per_page' => $tt_atts['post_limit'],
@@ -27,33 +27,33 @@
                         <figure class="thumbnail">
                             <div class="thumb-wrapper">
                                 <?php the_post_thumbnail('nominee-member', array('alt'=> get_the_title(), 'class' => 'img-responsive' ));?>
-                                
+
                                 <?php if (function_exists('rwmb_meta')) : ?>
-                                    
+
                                     <div class="team-social">
                                         <ul class="list-inline">
                                             <?php
-                                            
+
                                             $facebook_link = rwmb_meta('nominee_facebook_link');
                                             if ($facebook_link) : ?>
                                                 <li>
                                                     <a href="<?php echo esc_url($facebook_link); ?>"><i class="fa fa-facebook"></i></a>
                                                 </li>
-                                            <?php endif; 
+                                            <?php endif;
 
                                             $twitter_link = rwmb_meta('nominee_twitter_link');
                                             if ($twitter_link) : ?>
                                                 <li>
                                                     <a href="<?php echo esc_url($twitter_link); ?>"><i class="fa fa-twitter"></i></a>
                                                 </li>
-                                            <?php endif; 
+                                            <?php endif;
 
                                             $google_plus_link = rwmb_meta('nominee_google_plus_link');
                                             if ($google_plus_link) : ?>
                                                 <li>
                                                     <a href="<?php echo esc_url($google_plus_link); ?>"><i class="fa fa-google-plus"></i></a>
                                                 </li>
-                                            <?php endif; 
+                                            <?php endif;
 
                                             $linkedin_link = rwmb_meta('nominee_linkedin_link');
                                             if ($linkedin_link) : ?>
@@ -81,23 +81,23 @@
                                 <?php endif; ?>
 
                             </div> <!-- .thumb-wrapper -->
-                          
+
                             <figcaption class="caption text-center">
-                                
+
                                 <h3><?php the_title(); ?></h3>
 
                                 <?php if (function_exists('rwmb_meta')) :
                                     $member_designation = rwmb_meta('nominee_member_designaion');
                                     if ($member_designation and $tt_atts['designation_visibility'] == 'visible-designation') : ?>
                                         <span><?php echo esc_html($member_designation); ?></span>
-                                    <?php endif; 
+                                    <?php endif;
                                 endif; ?>
                                 <?php if ($tt_atts['bio_visibility'] == 'visible-bio'): ?>
                                     <div class="member-biography">
                                         <a href="<?php the_permalink();?>"><?php echo esc_html(nominee_option('biography-text', false, true));?><i class="fa fa-long-arrow-right"></i></a>
                                     </div>
                                 <?php endif ?>
-                                
+
                             </figcaption>
                         </figure>
                     </div> <!-- .col-# -->

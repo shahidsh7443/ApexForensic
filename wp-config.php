@@ -1,4 +1,9 @@
 <?php
+
+define('WP_HOME','http://localhost/razorbee/apexforensic');
+define('WP_SITEURL','http://localhost/razorbee/apexforensic');
+
+
 /**
  * The base configuration for WordPress
  *
@@ -26,7 +31,7 @@ define('DB_NAME', 'apexforensic');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'razorbee123');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');

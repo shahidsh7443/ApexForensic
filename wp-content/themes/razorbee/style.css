@@ -1526,6 +1526,7 @@ display: block;
     position: relative;
     overflow: hidden;
     text-align: center;
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.8);
 }
 @media (max-width : 991px) {
     .spotlight-wrap .tt-effect {
@@ -2237,6 +2238,7 @@ display: block;
     background-image: url(../../services/Paternity2.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 .flaticon-house121:before {
     display: none;
@@ -2246,6 +2248,7 @@ display: block;
     background-image: url(../../services/service1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 .flaticon-lifeline5:before {
     display: none;
@@ -2255,6 +2258,7 @@ display: block;
     background-image: url(../../services/official.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 .flaticon-share11:before {
     display: none;
@@ -2264,6 +2268,7 @@ display: block;
     background-image: url(../../services/DNA1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 .flaticon-earth206:before {
     display: none;
@@ -2273,6 +2278,7 @@ display: block;
     background-image: url(../../services/dna2.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 .flaticon-graduate37:before {
     display: none;
@@ -2282,6 +2288,7 @@ display: block;
     background-image: url(../../services/fire1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 .flaticon-home166:before {
     display: none;
@@ -2291,6 +2298,7 @@ display: block;
     background-image: url(../../services/shoeimpression1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 .flaticon-address20:before {
     display: none;
@@ -2300,6 +2308,7 @@ display: block;
     background-image: url(../../services/Farms1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 .flaticon-businessman20:before {
     display: none;
@@ -2309,6 +2318,7 @@ display: block;
     background-image: url(../../services/dst1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 .flaticon-basic6:before {
     display: none;
@@ -2318,6 +2328,7 @@ display: block;
     background-image: url(../../services/nox1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 .flaticon-broken46:before {
     display: none;
@@ -2327,6 +2338,7 @@ display: block;
     background-image: url(../../services/hnd1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 .flaticon-connection22:before {
     display: none;
@@ -2336,6 +2348,7 @@ display: block;
     background-image: url(../../services/case1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 .flaticon-electric56:before {
     display: none;
@@ -2345,6 +2358,7 @@ display: block;
     background-image: url(../../services/Tox1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 .flaticon-blank35:before {
     display: none;
@@ -2354,6 +2368,7 @@ display: block;
     background-image: url(../../services/csr1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 .flaticon-cocktail30:before {
     display: none;
@@ -2363,6 +2378,7 @@ display: block;
     background-image: url(../../services/fl1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 .flaticon-basic3:before {
     display: none;
@@ -2372,6 +2388,7 @@ display: block;
     background-image: url(../../services/te1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 .flaticon-chef29:before {
     display: none;
@@ -2381,6 +2398,7 @@ display: block;
     background-image: url(../../services/df1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 .flaticon-coffee68:before {
     display: none;
@@ -2390,6 +2408,7 @@ display: block;
     background-image: url(../../services/ms1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 .flaticon-charged1:before {
     display: none;
@@ -2399,6 +2418,7 @@ display: block;
     background-image: url(../../services/ts1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 .flaticon-award50:before {
     display: none;
@@ -2408,6 +2428,7 @@ display: block;
     background-image: url(../../services/cpd1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 .flaticon-cross101:before {
     display: none;
@@ -3366,7 +3387,7 @@ font-size: 35px;
     margin-top: 30px;
 }
 .biography-info-wrapper .bio-info{
-    margin: 40px 0;
+    margin: 0 0;
 }
 .biography-info-wrapper .bio-info ul{
     margin: 0;
@@ -6150,6 +6171,24 @@ display:none !important;
 {
 display:none;
 }
+#categories-3
+{
+display:none;
+}
+.single-post .entry-footer
+{
+  display: none;
+}
+#categories-2
+{
+display:none;
+}
+.vc_tta-panels-container
+{
+  height: 50%;
+}
+
+/*
 #meta-2
 {
 display:none;
@@ -6177,13 +6216,48 @@ display:none;
 .mc4wp_form_widget-1
 {
 display:none;
-}
+}*/
 .header-transparent .page-header-section .page-header {
     padding: 225px 0 100px !important;
 }
+.vc_custom_1517322962468
+{
+  background-attachment: fixed;
+}
 
+.vc_tta-tabs-container
+{
+  width: 25% !important;
+}
+.profile
+{
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+.educational-qualification{
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #ececec;
+}
+.colored
+{
+  font-size: 16px;
+  font-weight: 600;
+}
+.educational-qualification span i
+{
+    font-weight: 400;
+    margin-right: 12px;
+}
 @media only screen and (max-width: 480px)
 {
+  .profile
+  {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+
+  }
 .navbar .navbar-header img {
     width: 25% !important;
     transition: all 0.7s ease;
@@ -6223,5 +6297,52 @@ margin-left:-70px;
 .ser
 {
 margin-top:15px
+}
+.btn-outline {
+
+    visibility: hidden;
+}
+.btn-xl
+{
+display:none !important;
+}
+.vc_tta-tabs-container
+{
+  width: 100%;
+}
+.vc_tta-panels-container
+{
+  height: 25%;
+}
+.vc_custom_1516863368483 {
+    margin-top: -35px;
+    padding-bottom: 50px;
+}
+.navbar .navbar-header img {
+    width: 25% !important;
+    transition: all 0.7s ease;
+    position: absolute;
+    height: auto;
+    margin-top: -15px;
+}
+.slides-container .intro {
+top:75% !important;
+}
+#homeslide .tt-slider .intro-sub {
+    font-size: 20px !important;
+}
+.tt-slider .tt-title {
+    font-size: 18px !important;
+    line-height: 20px !important;
+}
+#homeslide .container {
+    margin-top: 0% !important;
+}
+.navbar-nav {
+    margin: 40.5px -15px !important;
+}
+#contact {
+    background-color: #ccc;
+    background-image: none !important;
 }
 }
