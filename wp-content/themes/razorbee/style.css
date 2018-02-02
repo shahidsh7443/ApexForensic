@@ -104,6 +104,7 @@ html,
 body {
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -3355,9 +3356,9 @@ font-size: 35px;
 }
 
 /*Leader biography*/
-.leader-basic-info{
+/*.leader-basic-info{
     border-bottom: 1px solid #eaeaea;
-}
+}*/
 @media(min-width: 1400px){
     .leader-image{
         max-height: 800px;
@@ -6238,7 +6239,7 @@ display:none;
 .educational-qualification{
     padding-top: 20px;
     margin-top: 20px;
-    border-top: 1px solid #ececec;
+    border-top: 1px solid #504848;
 }
 .colored
 {
@@ -6250,12 +6251,73 @@ display:none;
     font-weight: 400;
     margin-right: 12px;
 }
+.vc_custom_1517328973808
+{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.info
+{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.info img
+{
+  margin-top: 65px;
+  border-radius: 10%;
+    box-shadow: 10px 10px 25px;
+}
+.ninfo img
+{
+  margin-top: 80px;
+}
+#res
+{
+  padding-left: 100px;
+  padding-right: 100px;
+  background-attachment: fixed !important;
+}
+.profile
+{
+  background-attachment: fixed !important;
+}
 @media only screen and (max-width: 480px)
 {
-  .profile
+  .posts-content
+  {
+    margin-bottom: 0px !important;
+  }
+  .leader-image img {
+      width: 85%;
+      margin-left: 25px;
+  }
+  .vc_tta-title-text
+  {
+    margin-left: 6px !important;
+  }
+  .leader-image img {
+      width: 85%;
+      margin-left: 25px;
+  }
+  #res
+  {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .info
   {
     padding-left: 0px !important;
     padding-right: 0px !important;
+  }
+  .vc_custom_1517328973808
+  {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .profile
+  {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
 
   }
 .navbar .navbar-header img {
