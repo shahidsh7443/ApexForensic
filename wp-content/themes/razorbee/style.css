@@ -2236,7 +2236,7 @@ display: block;
 }
 #services .icon-block .tt-icon .flaticon-house121
 {
-    background-image: url(../../services/Paternity2.jpg);
+    background-image: url(../../services/fcb.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
@@ -2276,7 +2276,7 @@ display: block;
 }
 #services .icon-block .tt-icon .flaticon-graduate37
 {
-    background-image: url(../../services/dna2.jpg);
+    background-image: url(../../services/fpn.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
@@ -2306,7 +2306,7 @@ display: block;
 }
 #services .icon-block .tt-icon .flaticon-businessman20
 {
-    background-image: url(../../services/Farms1.jpg);
+    background-image: url(../../services/fp.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
@@ -2316,12 +2316,22 @@ display: block;
 }
 #services .icon-block .tt-icon .flaticon-basic6
 {
-    background-image: url(../../services/dst1.jpg);
+    background-image: url(../../services/scr.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 .flaticon-basic6:before {
+    display: none;
+}
+#services .icon-block .tt-icon .flaticon-add188
+{
+    background-image: url(../../services/dst1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+.flaticon-add188:before {
     display: none;
 }
 #services .icon-block .tt-icon .flaticon-broken46
@@ -6162,11 +6172,11 @@ ul.comment-list > li.bypostauthor > .comment {
 }
 .btn-outline {
 
-    visibility: hidden;
+    visibility: visible;
 }
 .btn-xl
 {
-display:none !important;
+display:inline-block !important;
 }
 #comments
 {
@@ -6281,8 +6291,125 @@ display:none;
 {
   background-attachment: fixed !important;
 }
+.dnaq
+{
+  padding-left: 75px;
+  padding-right: 75px;
+}
+.dnaq .section-intro  h2
+{
+  margin-top: 25px;
+}
+.subdna
+{
+  margin-top: 25px;
+}
+.offer
+{
+  padding-left: 175px;
+  padding-right: 50px;
+}
+#r1
+{
+  margin-bottom: 50px;
+}
+#r2
+{
+  margin-bottom: 50px;
+}
+
+#team .thumbnail
+{
+   background: transparent;
+}
+#team .thumbnail  .thumb-wrapper img
+{
+  border-radius: 50%;
+  margin-left: 15%;
+  width: 65%;
+}
+#dserv .vc_column-inner
+{
+  height: 550px;
+}
+#dserv1 .vc_column-inner
+{
+  height: 610px;
+}
+#dserv2 .vc_column-inner
+{
+  height: 605px;
+}
+#dserv3 .vc_column-inner
+{
+  height: 610px;
+}
+.cs
+{
+  text-align: left;
+}
+.subser .section-intro {
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+.abtcs .section-intro
+{
+  margin-top: 50px;
+}
+#our-services
+{
+  display: none;
+}
+#abtid p {
+    text-align: justify;
+}
+#abtid
+{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+#services a
+{
+  color: #2f2f2f;
+}
 @media only screen and (max-width: 480px)
 {
+  .cs img {
+    margin-left: 0% !important;
+}
+  #abtid
+  {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  #r1
+  {
+    margin-bottom: 0px !important;
+  }
+  #r2
+  {
+    margin-bottom: 0px !important;
+  }
+  .offer
+  {
+    padding-left: 65px !important;
+    padding-right: 20px !important;
+  }
+  blockquote:after {
+    right: 0px !important;
+    top: 60px !important;
+}
+  blockquote {
+    font-size: 16px !important;
+  }
+  blockquote:before {
+    left: -5px !important;
+    top: -40px !important ;
+}
+  .dnaq {
+    padding-left: 10px;
+    padding-right: 10px;
+}
   .posts-content
   {
     margin-bottom: 0px !important;
@@ -6301,8 +6428,8 @@ display:none;
   }
   #res
   {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .info
   {
