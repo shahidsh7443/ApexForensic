@@ -633,6 +633,8 @@ var _top=100;
     }
 
 
-
-
+/*****Custom JS*********/
+jQuery("#services").find("a").each(function( index ) {
+  if(jQuery( this ).attr("href")=="#"){jQuery( this ).click(function(e){e.preventDefault()}) }
+});
 });
