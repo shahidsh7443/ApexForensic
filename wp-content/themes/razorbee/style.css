@@ -1360,7 +1360,7 @@ span.separator span{
         -ms-transform: translate(0%, -50%);
          -o-transform: translate(0%, -50%);
             transform: translate(0%, -50%);
-            background: rgba(0, 0, 0, 0.6);
+            background: rgba(0, 0, 0, 0.3);
 
 }
 #legal
@@ -1527,7 +1527,6 @@ display: block;
     position: relative;
     overflow: hidden;
     text-align: center;
-    box-shadow: 20px 20px 20px rgba(0,0,0,0.8);
 }
 @media (max-width : 991px) {
     .spotlight-wrap .tt-effect {
@@ -6368,12 +6367,131 @@ display:none;
   padding-left: 100px;
   padding-right: 100px;
 }
+.ab1
+{
+  display: none;
+}
+.ab2
+{
+  display: none;
+}
+.abtimg .vc_column-inner
+{
+  height: 350px;
+}
+.abtus .wpb_wrapper
+{
+  padding-left: 5px;
+}
+.abtus p
+{
+  text-align: justify;
+}
+#services .s1
+{
+  display: none;
+}
+#services .vc_column-inner
+{
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 210px;
+}
+#services .serv1 .wpb_wrapper
+{
+  padding-left: 0px;
+    padding-right: 0px;
+    color: white;
+    margin-top: 72px;
+    margin-bottom: -40px;
+    padding-bottom: 6px;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.9));
+}
+#services h3
+{
+color: white;
+text-align: center;
+margin-bottom: 0px;
+padding-top: 5px;
+}
+#services p
+{
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 20px;
+  text-align: justify;
+  color: white;
+  padding-bottom: 5px;
+}
+#services .c1
+{
+  border: 5px solid transparent;
+}
+#services .vc_custom_1519140228662
+{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+#services .serv1
+{
+  display: none;
+}
+#services .img
+{
+    position: relative;
+    overflow: hidden;
+    width: 375px;
+    height: 215px;
+}
+#services img
+{
+    width: 375px;
+    transition: all 0.3s ease-out;
+    height: 215px;
+}
+#services .content
+{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1));
+    margin-top: -75px;
+    position: absolute;
+    width: 375px;
+}
+#services img:hover
+{
+    transform: scale(1.2);
+}
 #services a
 {
-  color: #2f2f2f;
+    color: white;
+}
+#services
+{
+  padding-bottom: 120px;
+}
+#services .vc_col-sm-4
+{
+  margin-top: 30px;
 }
 @media only screen and (max-width: 480px)
 {
+
+  #services .vc_col-sm-4
+  {
+    margin-top: 0px !important;
+  }
+  #services
+  {
+    padding-bottom: 4275px !important;
+  }
+  #services p
+  {
+    padding-left: 30px;
+  }
+  #services .vc_column_container {
+    padding-left: 0;
+    padding-right: 25px;
+    margin-bottom: 25px;
+}
   .cs img {
     margin-left: 0% !important;
 }

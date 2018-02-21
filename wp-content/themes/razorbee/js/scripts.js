@@ -56,7 +56,7 @@ jQuery(function ($) {
 
             var target = this.hash;
             var $target = $(target);
-var _top=10;
+var _top=100;
             if (target) {
                 $('html, body').stop().animate({
                     'scrollTop': $target.offset().top - _top

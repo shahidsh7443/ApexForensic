@@ -5,7 +5,7 @@
  *
  * Set this to error_reporting( -1 ) for debugging.
  */
-error_reporting(0);
+error_reporting(1);
 
 /** Set ABSPATH for execution */
 if ( ! defined( 'ABSPATH' ) ) {
