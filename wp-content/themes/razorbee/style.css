@@ -621,12 +621,13 @@ span.separator span{
 .page-header-section{
     margin-bottom: 130px;
     position: relative;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+        height: 340px;
 }
 
 .page-header-section .tt-overlay{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .page-header-section h2{
@@ -636,6 +637,7 @@ span.separator span{
     color: #fff;
     margin: 0;
     font-weight: 400;
+    text-shadow: -4px 0px 3px black;
 }
 
 .page-header-section .page-header{
@@ -6333,11 +6335,11 @@ display:none;
 }
 #dserv .vc_column-inner
 {
-  height: 550px;
+  height: 350px;
 }
 #dserv1 .vc_column-inner
 {
-  height: 610px;
+  height: 400px;
 }
 #dserv2 .vc_column-inner
 {
@@ -6363,13 +6365,14 @@ display:none;
 {
   display: none;
 }
-#abtid p {
+.abtcs p {
     text-align: justify;
 }
-#abtid
+.abtcs
 {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 25px;
+  padding-right: 0px;
+  margin-top: 15px;
 }
 .ab1
 {
@@ -6476,9 +6479,311 @@ padding-top: 5px;
 {
   margin-top: 20px;
 }
+.subserv
+{
+  display: none;
+}
+.abtcs .img
+{
+    position: relative;
+    overflow: hidden;
+    width: 387px;
+    height: 215px;
+}
+.abtcs img
+{
+    width: 387px;
+    transition: all 0.3s ease-out;
+    height: 215px;
+}
+.abtcs .content
+{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1));
+    margin-top: -46px;
+    position: absolute;
+    width: 387px;
+    padding-left: 15px;
+    padding-right: 15px;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+}
+.abtcs img:hover
+{
+    transform: scale(1.2);
+}
+.abtcs a
+{
+  color: white !important;
+}
+.abtcs h3
+{
+  margin-bottom: 0px;
+  color: white;
+}
+.twoserv .img
+{
+    position: relative;
+    overflow: hidden;
+    width: 387px;
+    height: 215px;
+}
+.twoserv img
+{
+    width: 387px;
+    transition: all 0.3s ease-out;
+    height: 215px;
+}
+.twoserv .content
+{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1));
+    margin-top: -46px;
+    position: absolute;
+    width: 387px;
+    padding-left: 15px;
+    padding-right: 15px;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+}
+.twoserv img:hover
+{
+    transform: scale(1.2);
+}
+.twoserv a
+{
+  color: white !important;
+}
+.twoserv h3
+{
+  margin-bottom: 0px;
+  color: white;
+}
+.twoserv
+{
+  padding-left: 275px;
+  padding-right: 275px;
+  margin-top: -20px;
+  margin-bottom: 15px;
+
+}
+.fcs
+{
+  display: none;
+}
+#sser p
+{
+  text-align: justify;
+}
+#abtid .container
+{
+  padding-left: 50px;
+  padding-right: 100px;
+}
+.abtcs .container
+{
+  padding-left: 50px;
+  padding-right: 100px;
+}
+#abtid .wpb_content_element
+{
+  margin-bottom: 0px;
+}
+#abtid
+{
+  margin-top: 50px;
+}
+.team-social
+{
+  display: none;
+}
+#sser .fsp
+{
+  display: none;
+}
+#fspy .vc_column-inner {
+    height: 400px;
+}
+#fsyid .img
+{
+    position: relative;
+    overflow: hidden;
+    width: 387px;
+    height: 215px;
+}
+#fsyid img
+{
+    width: 387px;
+    transition: all 0.3s ease-out;
+    height: 215px;
+}
+#fsyid .content
+{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1));
+    margin-top: -46px;
+    position: absolute;
+    width: 387px;
+    padding-left: 15px;
+    padding-right: 15px;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+}
+#fsyid img:hover
+{
+    transform: scale(1.2);
+}
+#fsyid a
+{
+  color: white !important;
+}
+#fsyid h3
+{
+  margin-bottom: 0px;
+  color: white;
+}
+#fsyid
+{
+  padding-left: 275px;
+  padding-right: 275px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+
+}
+.ftws
+{
+  display: none;
+}
+#ftwid .vc_column-inner {
+    height: 470px;
+}
+.rgp
+{
+  display: none;
+}
+.dta
+{
+  display: none;
+}
+.abtcs h4
+{
+  color: white;
+}
+.fty .img
+{
+    position: relative;
+    overflow: hidden;
+    width: 387px;
+    height: 215px;
+}
+.fty img
+{
+    width: 387px;
+    transition: all 0.3s ease-out;
+    height: 215px;
+}
+.fty .content
+{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1));
+    margin-top: -70px;
+    position: absolute;
+    width: 387px;
+    padding-left: 15px;
+    padding-right: 15px;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+}
+.fty img:hover
+{
+    transform: scale(1.2);
+}
+.fty a
+{
+  color: white !important;
+}
+.fty h4
+{
+  margin-bottom: 0px;
+  color: white;
+}
+.fty
+{
+  padding-left: 130px;
+}
+#sser .title-description{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.trc
+{
+  display: none;
+}
+#dfs
+{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-left: 50px;
+    padding-right: 50px;
+}
+#dfs .img
+{
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 215px;
+}
+#dfs img
+{
+    width: 400px;
+    transition: all 0.3s ease-out;
+    height: 215px;
+}
+#dfs .content
+{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1));
+    margin-top: -45px;
+    position: absolute;
+    width: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+}
+#dfs img:hover
+{
+    transform: scale(1.2);
+}
+#dfs a
+{
+  color: white !important;
+}
+#dfs h3
+{
+  margin-bottom: 0px;
+  color: white;
+}
 @media only screen and (max-width: 480px)
 {
-
+  .abtcs .img {
+    width: auto !important;
+    height: auto !important ;
+    margin-bottom: 20px !important;
+}
+.abtcs .content {
+    width: auto !important;
+    margin-top: -90px !important;
+}
+  .page-header-section{
+      background-size: cover !important;
+          background-position: center !important;
+  }
   #services .vc_col-sm-4
   {
     margin-top: 0px !important;
@@ -6486,20 +6791,28 @@ padding-top: 5px;
   #services
   {
     padding-bottom: 4275px !important;
+    padding-left: 25px;
+padding-right: 25px;
   }
+  #services .img {
+    width: auto !important;
+}
+#services .content {
+    width: auto !important;
+}
   #services p
   {
     padding-left: 30px;
   }
   #services .vc_column_container {
     padding-left: 0;
-    padding-right: 25px;
+    padding-right: 0px;
     margin-bottom: 25px;
 }
   .cs img {
     margin-left: 0% !important;
 }
-  #abtid
+  .abtcs
   {
     padding-left: 10px !important;
     padding-right: 10px !important;
@@ -6655,5 +6968,9 @@ top:75% !important;
 #contact {
     background-color: #ccc;
     background-image: none !important;
+}
+.navbar {
+    background: none  !important;
+    height: auto!important;
 }
 }
