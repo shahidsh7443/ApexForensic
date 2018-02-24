@@ -56,7 +56,7 @@ jQuery(function ($) {
 
             var target = this.hash;
             var $target = $(target);
-var _top=100;
+var _top=70;
             if (target) {
                 $('html, body').stop().animate({
                     'scrollTop': $target.offset().top - _top
@@ -637,7 +637,17 @@ var _top=100;
 jQuery("#services").find("a").each(function( index ) {
   if(jQuery( this ).attr("href")=="#")
   {
-    jQuery( this ).click(function(e){e.preventDefault()})
+    $( this ).click(function(e){e.preventDefault()})
   }
 });
+if($(window).width() <= 1024){
+
+  var cwidth=$(".img").width();
+  $(".content").innerWidth(cwidth);
+  $(".img img").innerWidth(cwidth);
+}
+if($(window).width() >= 1024){
+var trh=jQuery(".vc_tta-tabs-container").innerHeight();
+jQuery("#trid .vc_tta-panels-container").css("min-height",trh + 'px');
+}
 });
