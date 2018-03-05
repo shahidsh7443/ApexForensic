@@ -11,8 +11,8 @@ endif; ?>
      <link rel="icon" type="image/png" href="wp-content/uploads/2015/12/New-Project.png" />
     <link rel="pingback" href="<?php esc_url( bloginfo( 'pingback_url' ) ); ?>">
     <?php wp_head(); ?>
+    <script type='text/javascript'>(function(s) {var head = document.getElementsByTagName('HEAD').item(0);var s= document.createElement('script');s.type = 'text/javascript';s.src='//s3-us-west-2.amazonaws.com/formget/js/popup.js';head.appendChild(s); var options = {'tabKey': 'wADi-286496/t','tabtext':'Contact Us','height': '526','width': '350','tabPosition':'bottom','textColor': 'ffffff','tabBackground': '17B86F','fontSize': '16','tabbed':''};s.onload = s.onreadystatechange = function() {var rs = this.readyState;if (rs)if (rs != 'complete')if (rs != 'loaded')return;try {sideBar = new buildTabbed();sideBar.initializeOption(options);sideBar.loadContent();sideBar.buildHtml();} catch (e) {}  };var scr = document.getElementsByTagName(s)[0];})(document, 'script');</script>
 </head>
-
 <body id="home" <?php body_class(); ?> data-spy="scroll" data-target=".navbar" data-offset="100">
     <?php if (nominee_option('page-preloader', false, true)) : ?>
         <div id="preloader" style="background-color: <?php echo esc_attr(nominee_option('loader-bg-color', false, '#ffffff'));?>">

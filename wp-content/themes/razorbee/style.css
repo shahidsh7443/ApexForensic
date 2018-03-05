@@ -738,6 +738,7 @@ span.separator span{
 .sticky.navbar-default {
     padding: 10px 0;
     background-color: #2f2f2f;
+    background: #2f2f2f;
 }
 
 .header-default .header-wrapper.sticky .navbar-default{
@@ -5467,7 +5468,7 @@ ul.comment-list > li.bypostauthor > .comment {
     height: 550px
 }
 .location-info {
-    padding: 100px 140px !important;
+    padding: 5px 65px !important;
     height: 550px;
     background-color: #f4f4f4;
 }
@@ -6771,6 +6772,11 @@ padding-top: 5px;
 #gmap
 {
   padding-left: 50px;
+  height:400px;
+}
+#gmap iframe
+{
+  height:375px;
 }
 #services .section-intro
 {
@@ -6851,9 +6857,6 @@ transform: rotate(180deg);
     position: absolute;
     margin-top: 5px;
 }
-#abtid1 .vc_column-inner {
-    height: 400px;
-}
 .abtinfocls
 {
   padding-top: 75px;
@@ -6875,14 +6878,108 @@ transform: rotate(180deg);
 {
   margin-bottom: 30px;
 }
+#abtid1 .vc_column-inner {
+    height: 400px;
+}
+.acclass
+{
+  width: 45% !important;
+  margin-left: 5%;
+}
+#accid
+{
+  width: 110%;
+}
+#accid .vc_tta-title-text
+{
+  font-size: 18px;
+}
+#accid .vc_tta-title-text:hover
+{
+color: blue;
+}
+#abtid6
+{
+margin-top:60px;
+margin-bottom:30px;
+}
+.fa-handshake-o:before {
+    margin-left: -25px;
+    content: "\f2b5";
+    margin-top: 20px;
+    position: absolute;
+    font-size: 40px;
+}
+.fa-eye:before
+{
+    margin-left: -20px;
+    margin-top: 20px;
+    position: absolute;
+    font-size: 40px;
+}
+.fa-group:before, .fa-users:before
+{
+ margin-left: -20px;
+    margin-top: 20px;
+    position: absolute;
+    font-size: 40px;
+
+}
+#mvvid p
+{
+text-align:justify;
+}
 @media only screen and (max-width: 480px)
 {
+.fa-group:before, .fa-users:before {
+    margin-left: -15px !important;
+    margin-top: 0px !important;
+    position: absolute !important;
+    font-size: 30px !important;
+}
+.fa-handshake-o:before {
+    margin-left: -20px !important ;
+    content: "\f2b5"!important;
+    margin-top: 0px !important;
+    position: absolute !important;
+    font-size: 30px !important;
+}
+.fa-eye:before {
+    margin-left: -15px !important;
+    margin-top: 0px !important ;
+    position: absolute!important;
+    font-size: 30px !important;
+}
+#mvvid .icon-position-left .tt-icon i {
+    width: 60px !important;
+    height: 60px !important;
+}
+.icon-effect.icon-position-left .tt-content {
+    margin-left: 80px !important;
+}
+.abt
+{
+margin-left:34%;
+}
+#accid .vc_tta-title-text
+{
+  font-size: 16px !important;
+}
+  #accid
+  {
+    width: 100% !important;
+  }
+  .acclass
+  {
+    width: 100% !important;
+    margin-left: 0% !important;
+  }
   #tourid
   {
     margin-bottom: 35px !important;
   }
   #abtid1 {
-    margin-bottom: 15px !important;
+    margin-bottom: 40px !important;
 }
   .abtinfocls {
     padding-top: 0px !important;
@@ -6912,6 +7009,10 @@ transform: rotate(180deg);
   #q1
   {
     padding-left: 5px !important;
+  }
+  #abtid6 .content
+  {
+    margin-top: -90px !important;
   }
   #abtid1 .content
   {
@@ -7000,7 +7101,7 @@ transform: rotate(180deg);
   }
   #services
   {
-    padding-bottom: 4275px !important;
+    padding-bottom: 4985px !important;
     padding-left: 25px;
 padding-right: 25px;
   }
