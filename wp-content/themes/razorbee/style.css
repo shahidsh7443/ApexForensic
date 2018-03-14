@@ -1355,7 +1355,7 @@ span.separator span{
 .slides-container .intro {
     position: absolute;
     width: 100%;
-    top: 90%;
+    top: 95%;
     left: 0;
     padding: 15px 15px;
     -webkit-transform: translate(0%, -50%);
@@ -2233,6 +2233,7 @@ display: block;
   transition: all 0.7s ease;
   position: absolute;
   margin-top: -15px;
+      height: auto;
 }
 .navbar
 {
@@ -2242,6 +2243,7 @@ display: block;
 .sticky .navbar-header img{
   width: 75px;
       margin-top: -20px;
+          height: auto;
 }
 #services .icon-block .tt-icon .flaticon-house121
 {
@@ -5503,7 +5505,7 @@ ul.comment-list > li.bypostauthor > .comment {
 
 .footer-onepage-wrapper{
     background-color: #222222;
-    padding-top: 80px;
+    padding-top: 0px;
 }
 
 .footer-section h3 {
@@ -5552,7 +5554,7 @@ ul.comment-list > li.bypostauthor > .comment {
     line-height: 28px;
     color: #999999;
     border-top: 1px solid #484646;
-    margin-top: 75px;
+    margin-top: 0px;
 }
 
 /*Multipage footer style*/
@@ -6335,7 +6337,7 @@ display:none;
 }
 #dserv .vc_column-inner
 {
-  height: 350px;
+  height: 475px;
 }
 #dserv1 .vc_column-inner
 {
@@ -6459,9 +6461,10 @@ padding-top: 5px;
 #services .content
 {
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1));
-    margin-top: -75px;
+    margin-top: -35px;
     position: absolute;
     width: 387px;
+    padding-bottom: 5px;
 }
 #services img:hover
 {
@@ -6473,7 +6476,7 @@ padding-top: 5px;
 }
 #services
 {
-  padding-bottom: 120px;
+  padding-bottom: 80px;
 }
 #services .vc_col-sm-4
 {
@@ -6925,12 +6928,99 @@ margin-bottom:30px;
     font-size: 40px;
 
 }
-#mvvid p
+#msvvid p
 {
 text-align:justify;
 }
+
+#dna
+{
+  display: none;
+}
+#legal
+{
+  display: none;
+}
+#news
+{
+  display: none;
+}
+#tourid
+{
+  display: none;
+}
+#accabt
+{
+  display: none;
+}
+#msvvid
+{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+#msvvid .icon-effect .tt-icon i
+{
+  width: 100px;
+      height: 100px;
+      border-radius: 50%;
+}
+#mvvid
+{
+  display: none;
+}
+#abtusid
+{
+  margin-top: 40px;
+}
+.hide1,.hide2,.hide3,.hide4,.hide5,.hide6
+{
+  display: none;
+}
+.slide3 img
+{
+  margin-top: -105px;
+}
+.slide1 img
+{
+  top:0px !important;
+  height: 755px !important;
+}
+.subinf p,ol
+{
+  color: #333333;
+}
+#fsyid
+{
+  display: none;
+}
+#dnaserv .vc_column-inner
+{
+  height: 360px;
+}
+.abtcs
+{
+  display: none;
+}
+#dfs
+{
+  display: none;
+}
+.footer-section a,a:focus
+{
+  color:#CACCCF;
+}
 @media only screen and (max-width: 480px)
 {
+  .slide1 img
+  {
+    top:0px !important;
+    height: auto !important;
+  }
+  #msvvid
+  {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
 .fa-group:before, .fa-users:before {
     margin-left: -15px !important;
     margin-top: 0px !important;

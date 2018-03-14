@@ -1,7 +1,7 @@
 <?php
 
-define('WP_HOME','http://localhost/razorbee/apexforensic');
-define('WP_SITEURL','http://localhost/razorbee/apexforensic');
+define('WP_HOME','http://localhost/razorbee/ApexForensic');
+define('WP_SITEURL','http://localhost/razorbee/ApexForensic');
 
 
 /**
