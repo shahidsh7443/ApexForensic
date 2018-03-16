@@ -647,8 +647,8 @@ $( document ).ready(function() {
   }
   if($(window).width() <= 1024){
   var c2width=$(".clientsrow .img").width();
-  $(".clientsrow .content").innerWidth(c2width);
-  $(".clientsrow .img img").innerWidth(c2width);
+  $(".clientsrow .content").width(c2width);
+  $(".clientsrow .img img").width(c2width);
   var cwidth=$(".img").width();
   $(".content").innerWidth(cwidth);
   $(".img img").innerWidth(cwidth);

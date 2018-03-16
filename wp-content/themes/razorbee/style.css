@@ -1578,28 +1578,28 @@ display: block;
     color: #fff;
     font-size: 24px;
     font-weight: 700;
-    -webkit-transition: -webkit-transform 0.35s, color 0.35s;
+    /*-webkit-transition: -webkit-transform 0.35s, color 0.35s;
         -ms-transition: -webkit-transform 0.35s, color 0.35s;
                     transition: transform 0.35s, color 0.35s;
     -webkit-transform: translate3d(0,-50%,0);
         -ms-transform: translate3d(0,-50%,0);
-            transform: translate3d(0,-50%,0);
+            transform: translate3d(0,-50%,0);*/
 }
-.tt-effect:hover h2 {
+/*.tt-effect:hover h2 {
     -webkit-transform: translate3d(0,-50%,0) translate3d(0,-60px,0);
         -ms-transform: translate3d(0,-50%,0) translate2d(0,-60px,0);
             transform: translate3d(0,-50%,0) translate3d(0,-60px,0);
-}
+}*/
 
 .spotlight-default .tt-effect h2{
-    top: 50%;
+    top: 40%;
 }
 
-.spotlight-default .tt-effect:hover h2 {
+/*.spotlight-default .tt-effect:hover h2 {
     -webkit-transform: translate3d(0,-50%,0) translate3d(0,-80px,0);
         -ms-transform: translate3d(0,-50%,0) translate2d(0,-80px,0);
             transform: translate3d(0,-50%,0) translate3d(0,-80px,0);
-}
+}*/
 
 /*IE9 Fixing*/
 .ie9 .tt-effect h2 {
@@ -1800,7 +1800,7 @@ display: block;
 
 /*icon effect style*/
 .icon-effect.icon-position-left .tt-content{
-    margin-left: 130px;
+    margin-left: 100px;
 }
 .icon-effect.icon-position-right .tt-content{
     margin-right: 85px;
@@ -6607,7 +6607,7 @@ padding-top: 5px;
   display: none;
 }
 #fspy .vc_column-inner {
-    height: 400px;
+    height: 730px;
 }
 #fsyid .img
 {
@@ -6909,21 +6909,21 @@ margin-bottom:30px;
 .fa-handshake-o:before {
     margin-left: -25px;
     content: "\f2b5";
-    margin-top: 20px;
+    margin-top: 10px;
     position: absolute;
     font-size: 40px;
 }
 .fa-eye:before
 {
     margin-left: -20px;
-    margin-top: 20px;
+    margin-top: 10px;
     position: absolute;
     font-size: 40px;
 }
 .fa-group:before, .fa-users:before
 {
  margin-left: -20px;
-    margin-top: 20px;
+    margin-top: 10px;
     position: absolute;
     font-size: 40px;
 
@@ -7056,8 +7056,30 @@ text-align:justify;
 }
 @media only screen and (max-width: 480px)
 {
+.clientsrow .img {
+  height: 215px;
+}
+.clientsrow .img img {
+  height: 215px;
+}
+/*.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: none !important;
+}*/
+#cmsid
+{
+margin-bottom: 50px;
+}
+#cmsid img {
+    width: 100%;
+    border-radius: 15%;
+}
   .clientsrow .col-lg-2 {
     margin-left: 0px !important;
+    margin-bottom: 20px;
+}
+.slide3 img {
+    margin-top: 0px;
 }
   .slide1 img
   {
@@ -7066,25 +7088,25 @@ text-align:justify;
   }
   #msvvid
   {
-    padding-left: 100px !important;
-    padding-right: 100px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
   }
 .fa-group:before, .fa-users:before {
     margin-left: -15px !important;
-    margin-top: 0px !important;
+    margin-top: 8px !important;
     position: absolute !important;
     font-size: 30px !important;
 }
 .fa-handshake-o:before {
     margin-left: -20px !important ;
     content: "\f2b5"!important;
-    margin-top: 0px !important;
+    margin-top: 8px !important;
     position: absolute !important;
     font-size: 30px !important;
 }
 .fa-eye:before {
     margin-left: -15px !important;
-    margin-top: 0px !important ;
+    margin-top: 8px !important ;
     position: absolute!important;
     font-size: 30px !important;
 }
@@ -7093,7 +7115,7 @@ text-align:justify;
     height: 60px !important;
 }
 .icon-effect.icon-position-left .tt-content {
-    margin-left: 80px !important;
+    margin-left: 100px !important;
 }
 .abt
 {
@@ -7129,9 +7151,7 @@ margin-left:34%;
   #sser h2 {
     font-size: 30px !important;
 }
-  #sser .title-description p:nth-child(2) {
-      margin-bottom: 50px;
-  }
+
   #dfs .wpb_wrapper
   {
     margin-bottom: 15px !important;
@@ -7396,7 +7416,7 @@ display:none !important;
     margin-top: -15px;
 }
 .slides-container .intro {
-top:82% !important;
+top:90% !important;
 }
 #homeslide .tt-slider .intro-sub {
     font-size: 20px !important;
