@@ -6962,8 +6962,8 @@ text-align:justify;
 }
 #msvvid .icon-effect .tt-icon i
 {
-  width: 100px;
-      height: 100px;
+  width: 75px;
+      height: 75px;
       border-radius: 50%;
 }
 #mvvid
@@ -7048,6 +7048,11 @@ text-align:justify;
 .clientsrow .img img
 {
   width: 200px;
+}
+#cmsid img
+{
+  width: 50%;
+  border-radius: 50%;
 }
 @media only screen and (max-width: 480px)
 {
