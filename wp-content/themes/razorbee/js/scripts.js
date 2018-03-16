@@ -631,8 +631,6 @@ var _top=70;
             }
         });
     }
-
-
 /*****Custom JS*********/
 jQuery("#services").find("a").each(function( index ) {
   if(jQuery( this ).attr("href")=="#")
@@ -640,14 +638,20 @@ jQuery("#services").find("a").each(function( index ) {
     $( this ).click(function(e){e.preventDefault()})
   }
 });
-if($(window).width() <= 1024){
 
+$( document ).ready(function() {
+  if($(window).width() >= 1024){
+  var c3width=$(".clientsrow img").width();
+  $(".clientsrow .content").innerWidth(c3width);
+  $(".clientsrow .img").innerWidth(c3width);
+  }
+  if($(window).width() <= 1024){
+  var c2width=$(".clientsrow .img").width();
+  $(".clientsrow .content").innerWidth(c2width);
+  $(".clientsrow .img img").innerWidth(c2width);
   var cwidth=$(".img").width();
   $(".content").innerWidth(cwidth);
   $(".img img").innerWidth(cwidth);
-}
-if($(window).width() >= 1024){
-var trh=jQuery(".vc_tta-tabs-container").innerHeight();
-jQuery("#trid .vc_tta-panels-container").css("min-height",trh + 'px');
-}
+  }
+});
 });
