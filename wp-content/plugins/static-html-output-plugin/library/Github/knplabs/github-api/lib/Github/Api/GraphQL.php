@@ -41,6 +41,6 @@ class GraphQL extends AbstractApi
      */
     public function fromFile($file, array $variables = array())
     {
-        return $this->execute(file_get_contents($file), $variables);
+        return $this->execute(file__get_contents($file), $variables);
     }
 }

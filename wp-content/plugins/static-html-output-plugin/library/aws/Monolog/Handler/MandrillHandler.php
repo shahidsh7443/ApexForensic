@@ -52,7 +52,7 @@ class MandrillHandler extends MailHandler
         $message->setBody($content);
         $message->setDate(time());
 
-        $ch = curl_init();
+        $ch = curl__init();
 
         curl_setopt($ch, CURLOPT_URL, 'https://mandrillapp.com/api/1.0/messages/send-raw.json');
         curl_setopt($ch, CURLOPT_POST, 1);

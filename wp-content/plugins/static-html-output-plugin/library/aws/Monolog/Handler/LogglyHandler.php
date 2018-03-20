@@ -84,7 +84,7 @@ class LogglyHandler extends AbstractProcessingHandler
             $headers[] = 'X-LOGGLY-TAG: '.implode(',', $this->tag);
         }
 
-        $ch = curl_init();
+        $ch = curl__init();
 
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_POST, true);

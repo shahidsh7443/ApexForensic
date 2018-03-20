@@ -24,7 +24,7 @@ final class Curl
             throw new \InvalidArgumentException("Found space in \$url; it should be encoded");
         }
 
-        $this->handle = curl_init($url);
+        $this->handle = curl__init($url);
 
         // NOTE: Though we turn on all the correct SSL settings, many PHP installations
         // don't respect these settings.  Run "examples/test-ssl.php" to run some basic

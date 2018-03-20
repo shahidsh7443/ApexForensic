@@ -3421,7 +3421,7 @@ p {
 
 			$body = http_build_query( stripslashes_deep( $post_data ) );
 		} elseif ( is_null( $this->HTTP_RAW_POST_DATA ) ) {
-			$body = file_get_contents( 'php://input' );
+			$body = file__get_contents( 'php://input' );
 		} else {
 			$body = null;
 		}

@@ -308,7 +308,7 @@ class StaticHtmlOutput {
 							$clean_dir = str_replace($siteroot, '', $dir.'/'.$item);
 
 							$targetPath = $clean_dir;
-							$f = file_get_contents($dir.'/'.$item);
+							$f = file__get_contents($dir.'/'.$item);
 
 							if($targetPath == '/index.html') {
 							}
@@ -442,7 +442,7 @@ class StaticHtmlOutput {
 								$clean_dir = str_replace($siteroot . '/', '', $dir.'/'.$item);
 								$targetPath =  $gitubPath . $clean_dir;
 
-								$encodedFile = chunk_split(base64_encode(file_get_contents($dir .'/' . $item)));
+								$encodedFile = chunk_split(base64_encode(file__get_contents($dir .'/' . $item)));
 
 								$globHash = $client->api('gitData')->blobs()->create(
 										$githubUser, 

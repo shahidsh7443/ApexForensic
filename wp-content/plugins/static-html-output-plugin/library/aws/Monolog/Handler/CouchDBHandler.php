@@ -57,7 +57,7 @@ class CouchDBHandler extends AbstractProcessingHandler
             ),
         ));
 
-        if (false === @file_get_contents($url, null, $context)) {
+        if (false === @file__get_contents($url, null, $context)) {
             throw new \RuntimeException(sprintf('Could not connect to %s', $url));
         }
     }

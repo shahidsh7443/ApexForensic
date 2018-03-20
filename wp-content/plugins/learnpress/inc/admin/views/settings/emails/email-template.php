@@ -31,8 +31,8 @@ $email_format = $settings->get( 'emails_' . $this->id . '.email_format', 'plain_
 				} else {
 					$classes[] = 'hide-if-js';
 				}
-				$content_html  = stripslashes( $settings->get( 'emails_' . $this->id . '.email_content_html', file_get_contents( $template_file ) ) );
-				$content_plain = stripslashes( $settings->get( 'emails_' . $this->id . '.email_content_plain', file_get_contents( $template_file ) ) );
+				$content_html  = stripslashes( $settings->get( 'emails_' . $this->id . '.email_content_html', file__get_contents( $template_file ) ) );
+				$content_plain = stripslashes( $settings->get( 'emails_' . $this->id . '.email_content_plain', file__get_contents( $template_file ) ) );
 
 				$has_local_file = file_exists( $local_file );
 
@@ -47,7 +47,7 @@ $email_format = $settings->get( 'emails_' . $this->id . '.email_format', 'plain_
 				<div class="<?php echo join( ' ', $classes ); ?>">
 
 					<?php if ( $has_local_file ): ?>
-						<textarea rows="10" style="width: 90%;" readonly="readonly"><?php echo stripslashes( file_get_contents( $local_file ) ); ?></textarea>
+						<textarea rows="10" style="width: 90%;" readonly="readonly"><?php echo stripslashes( file__get_contents( $local_file ) ); ?></textarea>
 						<p class="description">
 							<?php printf( __( 'This template has been overridden by your theme and can be found in: <code>%s</code>. <br />Please open the file in an editor program to edit', 'learnpress' ), $theme_folder . '/' . $template_dir . '/' . $template ); ?>
 						</p>

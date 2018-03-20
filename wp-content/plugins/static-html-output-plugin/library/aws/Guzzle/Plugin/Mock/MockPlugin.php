@@ -73,7 +73,7 @@ class MockPlugin extends AbstractHasDispatcher implements EventSubscriberInterfa
             throw new InvalidArgumentException('Unable to open mock file: ' . $path);
         }
 
-        return Response::fromMessage(file_get_contents($path));
+        return Response::fromMessage(file__get_contents($path));
     }
 
     /**

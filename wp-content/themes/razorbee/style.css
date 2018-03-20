@@ -6477,6 +6477,7 @@ padding-top: 5px;
 #services
 {
   padding-bottom: 80px;
+  min-height: 700px;
 }
 #services .vc_col-sm-4
 {
@@ -6907,25 +6908,25 @@ margin-top:60px;
 margin-bottom:30px;
 }
 .fa-handshake-o:before {
-    margin-left: -25px;
+    margin-left: -20px;
     content: "\f2b5";
-    margin-top: 10px;
+    margin-top: 0px;
     position: absolute;
-    font-size: 40px;
+    font-size: 30px;
 }
 .fa-eye:before
 {
-    margin-left: -20px;
-    margin-top: 10px;
+    margin-left: -15px;
+    margin-top: 0px;
     position: absolute;
-    font-size: 40px;
+    font-size: 30px;
 }
 .fa-group:before, .fa-users:before
 {
- margin-left: -20px;
-    margin-top: 10px;
+ margin-left: -15px;
+    margin-top: 0px;
     position: absolute;
-    font-size: 40px;
+    font-size:30px;
 
 }
 #msvvid p
@@ -7054,8 +7055,103 @@ text-align:justify;
   width: 50%;
   border-radius: 50%;
 }
+#abtinfoid
+{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.mission{
+padding: 25px;
+    border: 1px solid #ebebeb;
+    box-shadow: 5px 5px 10px;
+  }
+  .mission h3
+  {
+    color:#ed4736;
+    text-align: center;
+  }
+  .value
+  {
+  padding: 25px;
+      border: 1px solid #ebebeb;
+      box-shadow: 5px 5px 10px;
+    }
+    .value h3
+    {
+      color:#ed4736;
+      text-align: center;
+    }
+.vision{
+padding: 25px;
+    border: 1px solid #ebebeb;
+    box-shadow: 5px 5px 10px;
+  }
+  .vision h3
+  {
+    color:#ed4736;
+    text-align: center;
+  }
+  #abtusid .abt
+  {
+    min-height: 30px;
+  }
+#msvvid .wpb_text_column :last-child  {
+    min-height: 105px;
+  }
+  .value ul
+  {
+    height: 35px;
+    color: #333333;
+  }
+  .mission, .vision, .value
+  {
+    margin-top: 25px;
+  }
+  #support h2
+  {
+    font-size: 30px;
+  }
+  .journal p
+  {
+    color: #333333;
+    text-align: justify;
+  }
+#vmvid
+{
+padding-left:100px;
+padding-right:100px;
+}
+#vmvid .icon-effect .tt-icon i
+{
+  width: 55px;
+      height: 55px;
+      border-radius: 50%;
+}
+#vmvid .icon-block h3
+{
+color: #ef4836;
+}
+#vmvid p, ul ,ol
+{
+text-align:justify;
+ color: #333333;
+}
+/*#msvvid
+{
+display:none;
+}*/
+#cmsid .section-intro h2 {
+    margin: 0;
+    text-transform: none;
+    display: inline-block;
+}
 @media only screen and (max-width: 480px)
 {
+#vmvid
+{
+padding-left:10px;
+padding-right:10px;
+}
 .clientsrow .img {
   height: 215px;
 }

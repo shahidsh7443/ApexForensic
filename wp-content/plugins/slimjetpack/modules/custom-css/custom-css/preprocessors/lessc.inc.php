@@ -118,7 +118,7 @@ class lessc {
 
 		$this->addParsedFile($realPath);
 		$parser = $this->makeParser($realPath);
-		$root = $parser->parse(file_get_contents($realPath));
+		$root = $parser->parse(file__get_contents($realPath));
 
 		// set the parents of all the block props
 		foreach ($root->props as $prop) {
@@ -1827,7 +1827,7 @@ class lessc {
 
 		$this->addParsedFile($fname);
 
-		$out = $this->compile(file_get_contents($fname), $fname);
+		$out = $this->compile(file__get_contents($fname), $fname);
 
 		$this->importDir = $oldImport;
 

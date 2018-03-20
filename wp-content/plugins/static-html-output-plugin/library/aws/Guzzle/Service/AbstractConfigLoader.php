@@ -100,7 +100,7 @@ abstract class AbstractConfigLoader implements ConfigLoaderInterface
             case 'js':
             case 'json':
                 $level = error_reporting(0);
-                $json = file_get_contents($filename);
+                $json = file__get_contents($filename);
                 error_reporting($level);
 
                 if ($json === false) {

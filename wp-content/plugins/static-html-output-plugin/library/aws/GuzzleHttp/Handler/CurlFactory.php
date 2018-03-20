@@ -53,7 +53,7 @@ class CurlFactory implements CurlFactoryInterface
         $conf[CURLOPT_HEADERFUNCTION] = $this->createHeaderFn($easy);
         $easy->handle = $this->handles
             ? array_pop($this->handles)
-            : curl_init();
+            : curl__init();
         curl_setopt_array($easy->handle, $conf);
 
         return $easy;

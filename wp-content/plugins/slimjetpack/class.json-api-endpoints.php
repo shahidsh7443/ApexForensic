@@ -654,7 +654,7 @@ abstract class WPCOM_JSON_API_Endpoint {
 \$options  = $php_opts_exported;
 
 \$context  = stream_context_create( \$options );
-\$response = file_get_contents(
+\$response = file__get_contents(
   '$this->example_request',
   false,
   \$context
@@ -667,7 +667,7 @@ EOPHP;
 			$php = <<<EOPHP
 <?php
 
-\$response = file_get_contents( '$this->example_request' );
+\$response = file__get_contents( '$this->example_request' );
 \$response = json_decode( \$response );
 
 ?>

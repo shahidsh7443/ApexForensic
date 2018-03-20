@@ -42,12 +42,12 @@
 						<?php if ( file_exists( $local_file ) ) { ?>
 							<?php //if( $template_type == 'plain' ){ ?>
 							<!--								<div class="editor">
-									<textarea name="<?php echo $settings_class->get_field_name( 'emails_' . $this->id . '[email_content_plain]' ); ?>" class="code" cols="25" rows="20" style="width: 97%;"><?php echo file_get_contents( $local_file ); ?></textarea>
+									<textarea name="<?php echo $settings_class->get_field_name( 'emails_' . $this->id . '[email_content_plain]' ); ?>" class="code" cols="25" rows="20" style="width: 97%;"><?php echo file__get_contents( $local_file ); ?></textarea>
 								</div>-->
 							<?php //} else { ?>
 							<?php
 //								wp_editor(
-//									stripslashes( file_get_contents( $local_file ) ),
+//									stripslashes( file__get_contents( $local_file ) ),
 //									'learn_press_email_content_' . $template_type,
 //									array(
 //										'textarea_rows' => 20,
@@ -71,7 +71,7 @@
 							</p>
 						<?php } elseif ( file_exists( $template_file ) ) { ?>
 							<!--							<div class="editor">
-								<textarea class="code" readonly="readonly" disabled="disabled" cols="25" rows="20" style="width: 97%;"><?php echo file_get_contents( $template_file ); ?></textarea>
+								<textarea class="code" readonly="readonly" disabled="disabled" cols="25" rows="20" style="width: 97%;"><?php echo file__get_contents( $template_file ); ?></textarea>
 							</div>-->
 							<h4><?php echo wp_kses_post( $title ); ?></h4>
 							<p class="description">

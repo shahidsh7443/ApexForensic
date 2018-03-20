@@ -127,7 +127,7 @@ class Url_Extractor {
 		);
 		$context = stream_context_create( $opts );
 		$path = $this->options->get_archive_dir() . $this->static_page->file_path;
-		return file_get_contents( $path, false, $context );
+		return file__get_contents( $path, false, $context );
 	}
 
 	/**

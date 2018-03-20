@@ -88,7 +88,7 @@ class DebugRuntime
         $functionName = "jmespath_{$hash}";
         $filename = "{$dir}/{$functionName}.php";
         fwrite($this->out, "File: {$filename}\n\n");
-        fprintf($this->out, file_get_contents($filename));
+        fprintf($this->out, file__get_contents($filename));
     }
 
     private function debugCallback(callable $debugFn, $expression, $data)

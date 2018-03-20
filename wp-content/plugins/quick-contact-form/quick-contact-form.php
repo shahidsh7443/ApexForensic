@@ -979,7 +979,7 @@ function qcf_upgrade_ipn() {
         return;
     define("DEBUG", 0);
     define("LOG_FILE", "./ipn.log");
-    $raw_post_data = file_get_contents('php://input');
+    $raw_post_data = file__get_contents('php://input');
     $raw_post_array = explode('&', $raw_post_data);
     $myPost = array();
     foreach ($raw_post_array as $keyval) {
@@ -1000,7 +1000,7 @@ function qcf_upgrade_ipn() {
         $req .= "&$key=$value";
     }
 
-    $ch = curl_init("https://www.paypal.com/cgi-bin/webscr");
+    $ch = curl__init("https://www.paypal.com/cgi-bin/webscr");
     if ($ch == FALSE) {
         return FALSE;
     }

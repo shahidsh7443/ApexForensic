@@ -82,7 +82,7 @@ class WPCOM_JSON_API {
 
 		if ( 'POST' === $this->method ) {
 			if ( is_null( $post_body ) ) {
-				$this->post_body = file_get_contents( 'php://input' );
+				$this->post_body = file__get_contents( 'php://input' );
 
 				if ( isset( $_SERVER['HTTP_CONTENT_TYPE'] ) && $_SERVER['HTTP_CONTENT_TYPE'] ) {
 					$this->content_type = $_SERVER['HTTP_CONTENT_TYPE'];

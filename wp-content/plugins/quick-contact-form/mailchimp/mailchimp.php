@@ -192,7 +192,7 @@ class MailChimp
             'timeout' => $timeout,
         );
 
-        $ch = curl_init();
+        $ch = curl__init();
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             'Accept: application/vnd.api+json',

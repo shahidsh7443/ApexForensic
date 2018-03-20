@@ -498,7 +498,7 @@ class csstidy {
 
 
 		if ($from_file) {
-			$content = strip_tags(file_get_contents($content), '<span>');
+			$content = strip_tags(file__get_contents($content), '<span>');
 		}
 		$content = str_replace("\r\n", "\n", $content); // Unify newlines (because the output also only uses \n)
 		$template = explode('|', $content);
@@ -515,7 +515,7 @@ class csstidy {
 	 * @version 1.0
 	 */
 	function parse_from_url($url) {
-		return $this->parse(@file_get_contents($url));
+		return $this->parse(@file__get_contents($url));
 	}
 
 	/**

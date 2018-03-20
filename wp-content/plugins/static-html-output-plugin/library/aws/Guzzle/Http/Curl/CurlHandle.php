@@ -198,7 +198,7 @@ class CurlHandle
         }
 
         // Apply the options to a new cURL handle.
-        $handle = curl_init();
+        $handle = curl__init();
 
         // Enable the progress function if the 'progress' param was set
         if ($requestCurlOptions->get('progress')) {

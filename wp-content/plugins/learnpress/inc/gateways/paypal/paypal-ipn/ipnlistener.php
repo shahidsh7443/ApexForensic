@@ -92,7 +92,7 @@ class IpnListener {
 			$this->post_uri = $uri;
 		}
 
-		$ch = curl_init();
+		$ch = curl__init();
 
 		curl_setopt( $ch, CURLOPT_SSL_VERIFYPEER, true );
 		curl_setopt( $ch, CURLOPT_SSL_VERIFYHOST, 2 );
@@ -279,7 +279,7 @@ class IpnListener {
 			// use raw POST data
 			if ( ! empty( $_POST ) ) {
 				$this->post_data = $_POST;
-				$encoded_data .= '&' . file_get_contents( 'php://input' );
+				$encoded_data .= '&' . file__get_contents( 'php://input' );
 			} else {
 				throw new Exception( "No POST data found." );
 			}

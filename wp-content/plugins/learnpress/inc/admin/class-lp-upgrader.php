@@ -112,7 +112,7 @@ class LP_Upgrader{
         if( file_exists( $readme ) ){
             require_once( dirname( __FILE__ ) . '/includes/class-readme-parse.php' );
             $parse = new WordPress_Readme_Parser( $readme );
-            $info = @$parse->parse_readme_contents( file_get_contents( $readme ) );
+            $info = @$parse->parse_readme_contents( file__get_contents( $readme ) );
 
             if( file_exists( $file = $working_dir . '/' . $basename . '.php' ) ) {
                 $headers = get_plugin_data( $file );

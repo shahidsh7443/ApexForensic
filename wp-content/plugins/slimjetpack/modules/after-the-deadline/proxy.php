@@ -40,7 +40,7 @@ function AtD_http_post( $request, $host, $path, $port = 80 ) {
  */
 function AtD_redirect_call() {
         if ( $_SERVER['REQUEST_METHOD'] === 'POST' )
-                $postText = trim(  file_get_contents( 'php://input' )  );
+                $postText = trim(  file__get_contents( 'php://input' )  );
 
         $url = $_GET['url'];
 

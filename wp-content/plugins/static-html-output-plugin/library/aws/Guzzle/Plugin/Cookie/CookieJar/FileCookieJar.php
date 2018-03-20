@@ -52,7 +52,7 @@ class FileCookieJar extends ArrayCookieJar
      */
     protected function load()
     {
-        $json = file_get_contents($this->filename);
+        $json = file__get_contents($this->filename);
         if (false === $json) {
             // @codeCoverageIgnoreStart
             throw new RuntimeException('Unable to open file ' . $this->filename);

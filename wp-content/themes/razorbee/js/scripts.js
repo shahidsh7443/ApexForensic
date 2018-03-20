@@ -100,7 +100,7 @@ var _top=70;
 
     /* ======= superslides ======= */
     $('#slides').superslides({
-        play: 25000,
+        play: 5000,
         animation: 'fade'
     });
 

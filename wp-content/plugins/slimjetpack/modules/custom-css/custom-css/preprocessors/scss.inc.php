@@ -1518,7 +1518,7 @@ class scssc {
 		if (isset($this->importCache[$realPath])) {
 			$tree = $this->importCache[$realPath];
 		} else {
-			$code = file_get_contents($path);
+			$code = file__get_contents($path);
 			$parser = new scss_parser($path, false);
 			$tree = $parser->parse($code);
 			$this->parsedFiles[] = $path;
@@ -4257,7 +4257,7 @@ class scss_server {
 		// look for modified imports
 		$icache = $this->importsCacheName($out);
 		if (is_readable($icache)) {
-			$imports = unserialize(file_get_contents($icache));
+			$imports = unserialize(file__get_contents($icache));
 			foreach ($imports as $import) {
 				if (filemtime($import) > $mtime) return true;
 			}
@@ -4275,7 +4275,7 @@ class scss_server {
 	 */
 	protected function compile($in, $out) {
 		$start = microtime(true);
-		$css = $this->scss->compile(file_get_contents($in), $in);
+		$css = $this->scss->compile(file__get_contents($in), $in);
 		$elapsed = round((microtime(true) - $start), 4);
 
 		$v = scssc::$VERSION;
@@ -4305,7 +4305,7 @@ class scss_server {
 				}
 			} else {
 				header('X-SCSS-Cache: true');
-				echo file_get_contents($output);
+				echo file__get_contents($output);
 			}
 
 			return;

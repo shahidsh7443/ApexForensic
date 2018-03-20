@@ -187,7 +187,7 @@ class CloudFrontClient extends AbstractClient
     protected function rsaSha1Sign($policy, $privateKeyFilename)
     {
         $signature = '';
-        openssl_sign($policy, $signature, file_get_contents($privateKeyFilename));
+        openssl_sign($policy, $signature, file__get_contents($privateKeyFilename));
 
         return $signature;
     }

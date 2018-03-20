@@ -147,7 +147,7 @@ class LP_Quiz_Factory {
 			if ( $result ) {
 				learn_press_setup_user_course_data( $user->id, $course_id );
 				$response['status']        = $result->status;
-				$response['html']          = file_get_contents( learn_press_get_current_url() );// learn_press_get_template_content( 'single-course/content-item-lp_quiz.php' );
+				$response['html']          = file__get_contents( learn_press_get_current_url() );// learn_press_get_template_content( 'single-course/content-item-lp_quiz.php' );
 				$response['course_result'] = self::get_course_info( $user->id, $course_id );
 			} else {
 				$response['result'] = 'error';

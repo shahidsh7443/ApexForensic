@@ -91,7 +91,7 @@ class Message
      */
     public static function fromRawPostData()
     {
-        $data = json_decode(file_get_contents('php://input'), true);
+        $data = json_decode(file__get_contents('php://input'), true);
         if (!is_array($data)) {
             throw new UnexpectedValueException('POST data absent, or not a valid JSON document', json_last_error());
         }

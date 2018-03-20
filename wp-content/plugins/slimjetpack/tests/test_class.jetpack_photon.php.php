@@ -16,7 +16,7 @@ class WP_Test_Jetpack_Photon extends PHPUnit_Framework_TestCase {
 		$files = glob( $directory . '/' . '*.html' );
 
 		foreach ( $files as $file ) {
-			$file_contents = file_get_contents( $file );
+			$file_contents = file__get_contents( $file );
 			list( $sample_html, $expected ) = explode( "\n--RESULTS--\n", $file_contents, 2 );
 			$this->assertEquals( $expected, print_r( Jetpack_Photon::parse_images_from_html( $sample_html ), true ) );
 		}

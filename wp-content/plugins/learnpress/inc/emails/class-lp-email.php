@@ -413,7 +413,7 @@ class LP_Email {
 			$content = ob_get_clean();
 		} else {
 			$template_file = $this->template_base . $template;
-			$content       = LP()->settings->get( 'emails_' . $this->id . '.email_content_html', file_get_contents( $template_file ) );
+			$content       = LP()->settings->get( 'emails_' . $this->id . '.email_content_html', file__get_contents( $template_file ) );
 			$content       = stripslashes( $content );
 		}
 		return $content;
@@ -430,7 +430,7 @@ class LP_Email {
 			$content = ob_get_clean();
 		} else {
 			$template_file = $this->template_base . $template;
-			$content       = LP()->settings->get( 'emails_' . $this->id . '.email_content_plain', file_get_contents( $template_file ) );
+			$content       = LP()->settings->get( 'emails_' . $this->id . '.email_content_plain', file__get_contents( $template_file ) );
 			$content       = stripslashes( $content );
 		}
 		return $content;

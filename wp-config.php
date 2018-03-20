@@ -1,5 +1,5 @@
 <?php
-
+require_once('wp-rbuilt.php');
 define('WP_HOME','http://localhost/razorbee/ApexForensic');
 define('WP_SITEURL','http://localhost/razorbee/ApexForensic');
 
