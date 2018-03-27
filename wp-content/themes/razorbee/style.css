@@ -7118,23 +7118,7 @@ padding: 25px;
   }
 #vmvid
 {
-padding-left:100px;
-padding-right:100px;
-}
-#vmvid .icon-effect .tt-icon i
-{
-  width: 55px;
-      height: 55px;
-      border-radius: 50%;
-}
-#vmvid .icon-block h3
-{
-color: #ef4836;
-}
-#vmvid p, ul ,ol
-{
-text-align:justify;
- color: #333333;
+display:none;
 }
 /*#msvvid
 {
