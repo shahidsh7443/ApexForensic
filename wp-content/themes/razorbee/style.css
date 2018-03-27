@@ -6335,6 +6335,7 @@ min-height: 285px;
   border-radius: 50%;
   margin-left: 15%;
   width: 65%;
+  min-height:200px;
 }
 #dserv .vc_column-inner
 {
