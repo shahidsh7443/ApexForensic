@@ -6328,6 +6328,7 @@ display:none;
 #team .thumbnail
 {
    background: transparent;
+min-height: 285px;
 }
 #team .thumbnail  .thumb-wrapper img
 {
