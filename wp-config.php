@@ -27,7 +27,7 @@ define('WP_SITEURL','http://apexforensiclab.com');
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 /*define('DB_NAME', 'apex1');*/
-define('DB_NAME', 'apexforensic');*/
+define('DB_NAME', 'apexforensic');
 /** MySQL database username */
 define('DB_USER', 'root');
 
