@@ -7133,6 +7133,10 @@ display:none;
 }
 @media only screen and (max-width: 480px)
 {
+  #abtinfoid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 #vmvid
 {
 padding-left:10px;
