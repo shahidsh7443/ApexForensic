@@ -7161,7 +7161,7 @@ margin-bottom: 50px;
     border-radius: 15%;
 }
   .clientsrow .col-lg-2 {
-    margin-left: 0px !important;
+    margin-left: -5px !important;
     margin-bottom: 20px;
 }
 .slide3 img {
@@ -7345,7 +7345,7 @@ margin-left:34%;
   }
   #services
   {
-    padding-bottom: 750px !important;
+    padding-bottom: 1000px !important;
     padding-left: 25px;
 padding-right: 25px;
   }
@@ -7546,5 +7546,9 @@ top:90% !important;
 }
 .abtus .wpb_wrapper {
 padding-left: 0px !important;
+}
+.mobhide
+{
+  display: none;
 }
 }
